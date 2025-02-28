@@ -1,45 +1,41 @@
 body {
-    background-color: #7A93AA;
+    background-color: #587590;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #3a3e6d;
-    
+    color: #3c4285;
+}
+
+h2 {
+    font-family: 'Inria Serif', serif;
 }
 
 h3 {
-    color: darkblue;
+    color: black;
 }
 
-.p1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.p2 {
-    font-family: 'Courier New', Courier, monospace;
+h4 {
+    color:white;
 }
 
 div.a {
     text-align: center;
+    
 }
 
 
 .box1 {
-    height: 130px;
-    width: 350px;
-    padding: 10px;
+    height: 200px;
+    width: 320px;
     margin: 50px;
-    border: 10px solid black;
-    background-color: grey;
+    border: 5px solid black;
 }
 
 .box2 {
-    height: 400px;
-    width: 500px;
-    padding: 5px;
-    margin: 10px;
+    height: 500px;
+    width: 450px;
     border: 5px solid black;
-    background-color: grey;
 }
 
 .box3 {
@@ -52,20 +48,78 @@ div.a {
 }
 
 .navBar {
-    background-color: #D7DCE4;
-    padding: 20px;
+    background-color: #d8dce4;
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    align-items: right;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
     text-align: center;
-    background: #617073;
-    background: linear-gradient(90deg, rgba(97, 112, 115, 1) 35%, rgba(0, 115, 200, 1) 100%);
+    
+    
 }
 .flex-container > div{
-    background-color: #92BCEA;
+    background-color: #A7ABC5;
     margin: 10px;
     padding: 20px;
     font-size: 15px;;
+}
+
+
+.hero-section {
+    background: #A0ACBF;
+    padding: 50px;
+}
+.hero-content {
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-text {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+
+.middle-section {
+    padding: 50px;
+    background: #D7DCE4;
+}
+.middle-content {
+    width: 95%;
+    display: flex;
+}
+.middle-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.games-section {
+    place-items: center;
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #C0C0C0;
+}
+
+
+.footer {
+    display: flex;
+    background: #707070;
+}
+.footer-items {
+    flex-direction: row;
+    list-style: none;
+    color: white;
 }
